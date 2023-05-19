@@ -1,0 +1,58 @@
++-------------------------------------+
+|               Restaurante           |
++-------------------------------------+
+|                                     |
+| + main(String[] args)               |
+|                                     |
++-------------------------------------+
+                   |
+                   |
+                   |  
+           +-------+-------+
+           |               |
++-----------------+  +-----------------+
+| MateriaPrima    |  |  Funcionario    |
++-----------------+  +-----------------+
+| - nome: String  |  | - nome: String  |
+| - quantidade:   |  | - cargo: String |
+|    int          |  | - salario:      |
+| - fornecedor:   |  |    double       |
+|    String       |  +-----------------+
++-----------------+
+| + MateriaPrima( |
+|   String, int,  |
+|   String)       |
+| + getNome():    |
+|   String        |
+| + setNome(String)|
+| : void         |
+| + getQuantidade()|
+|   : int         |
+| + setQuantidade( |
+|   int)          |
+| : void         |
+| + getFornecedor()|
+|   : String      |
+| + setFornecedor(|
+|   String)       |
+| : void         |
++-----------------+
+| + Funcionario( |
+|   String,      |
+|   String,      |
+|   double)      |
+| + getNome():    |
+|   String        |
+| + setNome(String)|
+| : void         |
+| + getCargo():   |
+|   String        |
+| + setCargo(     |
+|   String)       |
+| : void         |
+| + getSalario(): |
+|   double        |
+| + setSalario(   |
+|   double)       |
+| : void         |
++-----------------+
