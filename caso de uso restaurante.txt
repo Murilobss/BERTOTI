@@ -1,0 +1,37 @@
+Caso de Uso: Gerenciamento de Materiais e Funcionários em um Restaurante
+
+Descrição:
+O caso de uso descreve as operações de gerenciamento de materiais e funcionários em um restaurante. O restaurante tem a necessidade de registrar e controlar as informações das matérias-primas utilizadas na preparação dos alimentos, bem como dos funcionários que trabalham no estabelecimento.
+
+Ator Principal:
+
+Administrador do Restaurante
+
+Fluxo Principal:
+
+1 - O administrador inicia o sistema do restaurante.
+2 - O sistema exibe as opções disponíveis: cadastrar matéria-prima, cadastrar funcionário, exibir informações.
+3 - O administrador seleciona a opção de cadastrar matéria-prima.
+4 - O sistema solicita os dados da matéria-prima: nome, quantidade e fornecedor.
+5 - O administrador insere os dados da matéria-prima e confirma o cadastro.
+6 - O sistema registra a matéria-prima no sistema.
+7 - O administrador repete os passos 3 a 6 para cadastrar outras matérias-primas, se desejar.
+8 - O administrador seleciona a opção de cadastrar funcionário.
+9 - O sistema solicita os dados do funcionário: nome, cargo e salário.
+10 - O administrador insere os dados do funcionário e confirma o cadastro.
+11 - O sistema registra o funcionário no sistema.
+12 - O administrador repete os passos 8 a 11 para cadastrar outros funcionários, se desejar.
+13 - O administrador seleciona a opção de exibir informações.
+14 - O sistema exibe as informações cadastradas das matérias-primas e dos funcionários.
+15 - O caso de uso é encerrado.
+Fluxo Alternativo:
+
+No passo 6 ou no passo 11, o administrador pode cancelar o cadastro, encerrando o fluxo de cadastro.
+Pré-condições:
+
+O sistema do restaurante está funcionando corretamente.
+
+Pós-condições:
+
+1 - As informações das matérias-primas e dos funcionários são registradas no sistema do restaurante.
+2 - As informações podem ser exibidas a qualquer momento pelo administrador.
